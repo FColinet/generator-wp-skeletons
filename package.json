@@ -1,6 +1,6 @@
 {
   "name": "generator-wp-skeletons",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Skeleton generator for wordpress plugins and themes",
   "homepage": "",
   "author": {
