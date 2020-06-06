@@ -1,0 +1,10 @@
+#adminmenu {
+  #toplevel_page_<%= lowercaseName %>_main_index {
+    .menu-icon-generic {
+      div.wp-menu-image::before {
+        font-family: "<%= lowercaseName %>" !important;
+        content: "\e800";
+      }
+    }
+  }
+}

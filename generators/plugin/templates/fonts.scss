@@ -1,0 +1,11 @@
+/*
+  Generate your font icon with http://fontello.com/ or other
+*/
+@font-face {
+  font-family: "<%= lowercaseName %>";
+  src: url("./fonts/<%= lowercaseName %>.eot");
+  src: url("./fonts/<%= lowercaseName %>.eot?#iefix") format("embedded-opentype"), url("./fonts/<%= lowercaseName %>.woff") format("woff"),
+    url("./fonts/<%= lowercaseName %>.ttf") format("truetype"), url("./fonts/<%= lowercaseName %>.svg#<%= lowercaseName %>") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
